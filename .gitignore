@@ -1,1 +1,27 @@
+# Operating-system files
 .DS_Store
+Thumbs.db
+
+# Python bytecode and tooling caches
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Local virtual environments and configuration
+.venv/
+venv/
+env/
+.env
+
+# Local solver and temporary output
+*.log
+*.lp
+*.mps
+*.sol
+*.prm
+*.tmp
